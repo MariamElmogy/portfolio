@@ -15,8 +15,11 @@ class AppColors {
   static const Color homeMainText = Color(0XFFFFFFFF);
   static const Color homeMajorText = Color(0XFF7072E3);
 
-  static const Color hireMeBtn =  Color(0XFF9394DA);
+  static const Color hireMeBtn = Color(0XFF565774);
   static const Color downloadCv = Color(0XFFC961DE);
 
   static const Color homeButtonText = Color(0XFFFFFFFF);
+
+  static const Color aboutMeGradient1 = Color(0XFFC961DE);
+  static const Color aboutMeGradient2 = Color(0XFF2954A3);
 }

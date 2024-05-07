@@ -20,6 +20,12 @@ abstract class AppStyles {
         fontSize: getResponsiveFontSize(context, fontSize: 60),
         fontWeight: FontWeight.w700,
       );
+
+  static TextStyle styleBold40(context) => TextStyle(
+        color: AppColors.homeMainText,
+        fontSize: getResponsiveFontSize(context, fontSize: 40),
+        fontWeight: FontWeight.w700,
+      );
 }
 
 double getResponsiveFontSize(context, {required double fontSize}) {

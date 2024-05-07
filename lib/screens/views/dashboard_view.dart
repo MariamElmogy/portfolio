@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:protfolio/utils/app_colors.dart';
-import 'package:protfolio/views/widgets/dashboard_desktop_layout.dart';
-import 'package:protfolio/views/widgets/dashboard_mobile_layout.dart';
-import 'package:protfolio/views/widgets/dashboard_tablet_layout.dart';
+import 'package:protfolio/screens/views/widgets/dashboard_desktop_layout.dart';
+import 'package:protfolio/screens/views/widgets/dashboard_mobile_layout.dart';
+import 'package:protfolio/screens/views/widgets/dashboard_tablet_layout.dart';
 
 import 'widgets/adaptive_layout.dart';
 
