@@ -12,7 +12,6 @@ abstract class AppStyles {
   static TextStyle styleRegular17(context) => TextStyle(
         color: AppColors.unSelectedAppBarTitles,
         fontSize: getResponsiveFontSize(context, fontSize: 17),
-        fontWeight: FontWeight.w400,
       );
 
   static TextStyle styleBold60(context) => TextStyle(
@@ -25,6 +24,11 @@ abstract class AppStyles {
         color: AppColors.homeMainText,
         fontSize: getResponsiveFontSize(context, fontSize: 40),
         fontWeight: FontWeight.w700,
+      );
+
+  static TextStyle styleRegular25(context) => TextStyle(
+        color: AppColors.homeMainText,
+        fontSize: getResponsiveFontSize(context, fontSize: 25),
       );
 }
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:protfolio/screens/views/widgets/about_me_section.dart';
+import 'package:protfolio/screens/views/widgets/experience_section.dart';
 import 'package:protfolio/screens/views/widgets/main_section.dart';
 import 'package:protfolio/screens/views/widgets/custom_top_menu.dart';
 
@@ -17,6 +18,8 @@ class DashboardDesktopLayout extends StatelessWidget {
           const MainSection(),
           // ABOUT ME
           const AboutMeSection(),
+          // EXPERIENCE
+          const ExperienceSection(),
           // SKILLS
           Container(
             height: 1000,
